@@ -29,18 +29,18 @@ function App() {
       height: 0,
       ease: 'expo2.inOut',
       stagger: {
-        amount: .5
+        amount: .8
       },
       delay: 0,
-      duration: 1.2
+      duration: .7
     }).to('.overlay-bottom', {
       width: 0,
       ease: 'expo2.inOut',
       stagger: {
-        amount: .5
+        amount: .3
       },
-      delay: -.5,
-      duration: 1.2
+      delay: -.1,
+      duration: 1
     }).to('.intro-overlay', {
       pointerEvents: 'none',
       duration: 0
